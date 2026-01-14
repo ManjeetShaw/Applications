@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #264653;
+}
+
+.card{
+    background: linear-gradient(60deg, #3C6E71, #FFFFFF, #284B63);
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    margin: 100px auto 0;
+    text-align: center;
+    padding: 40px 35px;
+    color: #003049;
+    font-family:cursive;
+    BOX-SHADOW: 0PX 2PX 15PX RGB(38,37,37);
+
+}
+
+.container{
+    padding: 40px;
+}
+
+.container p{
+    padding-bottom: 10px;
+}
+
+.date{
+    height: 30px;
+    width: 60%;
+    background: linear-gradient(60deg, #A1C181, #619B8A);
+    border-radius: 30px;
+    padding: 10px;
+    border: 2px dotted #233D4D;
+}
+
+.btn{
+    margin-left: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, #A1C181, #619B8A);
+    border: 2px dotted #233D4D;
+    cursor: pointer;
+}
+
+.value{
+    font-size: 22px;
+    margin-top: 30px;
+}
